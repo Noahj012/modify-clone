@@ -14,7 +14,7 @@ public class Point {
 		this(p.getX(), p.getY());
 	}
 	
-	public Point(int inX, int y) {
+	public Point(int x, int y) {
 		if ( x >= 0)
 			this.x = x;
 		if (y >= 0)
